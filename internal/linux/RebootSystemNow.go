@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/Continu-OS/syscored/src/syscored/linux/cgroups"
+	"github.com/Continu-OS/syscored/internal/linux/cgroups"
 )
 
 func RebootSystemNow() error {

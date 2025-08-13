@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	InitService "github.com/Continu-OS/syscored/src/syscored"
+	InitService "github.com/Continu-OS/syscored/pkg"
 )
 
-func GetAllSystemToolsets() ([]*InitService.SystemToolset, error) {
-	entries, err := os.ReadDir(InitService.HostSystemToolsetsDirPath)
+func GetAllBaseSystemFrameworks() ([]*InitService.BaseSystemFramework, error) {
+	entries, err := os.ReadDir(InitService.HostBaseSystemServicesDirPath)
 	if err != nil {
 		return nil, err
 	}

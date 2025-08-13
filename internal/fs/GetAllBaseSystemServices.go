@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	InitService "github.com/Continu-OS/syscored/src/syscored"
+	InitService "github.com/Continu-OS/syscored/pkg"
 )
 
 func GetAllBaseSystemServices() ([]*InitService.BaseSystemService, error) {

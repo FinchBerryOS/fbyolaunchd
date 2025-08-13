@@ -4,7 +4,7 @@ import (
 	"log"
 	"regexp"
 
-	InitService "github.com/Continu-OS/syscored/src/syscored"
+	InitService "github.com/Continu-OS/syscored/pkg"
 )
 
 // Extrahiert die Partitionsnummer aus einem Device-String,

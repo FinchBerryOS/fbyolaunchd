@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	InitService "github.com/Continu-OS/syscored/src/syscored"
+	InitService "github.com/Continu-OS/syscored/pkg"
 )
 
 // GetAllBootloaderParameters liest alle Boot-Parameter aus /proc/cmdline aus

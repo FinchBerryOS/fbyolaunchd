@@ -3,8 +3,8 @@ package defconfig
 import (
 	"sync"
 
-	InitService "github.com/Continu-OS/syscored/src/syscored"
-	defconfigarc "github.com/Continu-OS/syscored/src/syscored/defconfig/arc"
+	InitService "github.com/Continu-OS/syscored/pkg"
+	defconfigarc "github.com/Continu-OS/syscored/pkg/defconfig/arc"
 )
 
 var localOptionsMap *sync.Map = new(sync.Map)

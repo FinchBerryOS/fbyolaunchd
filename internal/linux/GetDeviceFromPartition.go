@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	InitService "github.com/Continu-OS/syscored/src/syscored"
+	InitService "github.com/Continu-OS/syscored/pkg"
 )
 
 // Extrahiert das Basisspeichergerät aus der Partition, z.B.

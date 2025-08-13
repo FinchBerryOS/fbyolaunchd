@@ -3,7 +3,7 @@ package linux
 import (
 	"fmt"
 
-	InitService "github.com/Continu-OS/syscored/src/syscored"
+	InitService "github.com/Continu-OS/syscored/pkg"
 )
 
 // Prüft, ob ein Resize nötig ist (Partition kleiner als Gerät)

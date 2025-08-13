@@ -5,17 +5,17 @@ import (
 	"log"
 	"os"
 
-	"github.com/Continu-OS/syscored/src/proc"
-	InitService "github.com/Continu-OS/syscored/src/syscored"
-	"github.com/Continu-OS/syscored/src/syscored/cformat"
-	"github.com/Continu-OS/syscored/src/syscored/config"
-	"github.com/Continu-OS/syscored/src/syscored/defconfig"
-	"github.com/Continu-OS/syscored/src/syscored/fs"
-	"github.com/Continu-OS/syscored/src/syscored/handler"
-	"github.com/Continu-OS/syscored/src/syscored/linux"
-	"github.com/Continu-OS/syscored/src/syscored/linux/cgroups"
-	"github.com/Continu-OS/syscored/src/syscored/linux/firmware"
-	"github.com/Continu-OS/syscored/src/syscored/servcaprocman"
+	proc "github.com/Continu-OS/syscored/cmd"
+	"github.com/Continu-OS/syscored/internal/fs"
+	"github.com/Continu-OS/syscored/internal/handler"
+	"github.com/Continu-OS/syscored/internal/linux"
+	"github.com/Continu-OS/syscored/internal/linux/cgroups"
+	"github.com/Continu-OS/syscored/internal/linux/firmware"
+	"github.com/Continu-OS/syscored/internal/servcaprocman"
+	InitService "github.com/Continu-OS/syscored/pkg"
+	"github.com/Continu-OS/syscored/pkg/cformat"
+	"github.com/Continu-OS/syscored/pkg/config"
+	"github.com/Continu-OS/syscored/pkg/defconfig"
 )
 
 func fatalClose(msg ...any) {

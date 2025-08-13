@@ -5,7 +5,7 @@ import (
 	"log"
 	"os/exec"
 
-	InitService "github.com/Continu-OS/syscored/src/syscored"
+	InitService "github.com/Continu-OS/syscored/pkg"
 )
 
 func ResizeRootDriveIfNeeded(device InitService.MemoryDevice, partition InitService.MemoryPartition) error {

@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	InitService "github.com/Continu-OS/syscored/src/syscored"
+	InitService "github.com/Continu-OS/syscored/pkg"
 )
 
 func GetRootDevicePartition() (InitService.RootPartition, error) {

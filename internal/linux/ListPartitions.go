@@ -5,7 +5,7 @@ import (
 	"os/exec"
 	"strings"
 
-	InitService "github.com/Continu-OS/syscored/src/syscored"
+	InitService "github.com/Continu-OS/syscored/pkg"
 )
 
 func ListPartitions(device InitService.MemoryDevice) ([]PartitionInfo, error) {
